@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <meta name="description" content="Portafolio personal de [Tu Nombre]">
+    <link rel="stylesheet" href="CSS/portafolio.css"> 
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+</head>
+<body>
+    <header class="d-flex col-12 col-sm-12 col-md-12  col-lg-12 col-xl-12 col-xxl-12">
+        <section class="Section-imagen"><img class="imagen-1 " src="IMG/sticker-png-login-icon-system-administrator-user-user-profile-icon-design-avatar-face-head.png" alt=""></section>
+        <h1 class="flex-wrap-wrap col-12 col-sm-5 col-md-4  col-lg-3 col-xl-4 col-xxl-1" >Mi Portafolio</h1>
+        <nav class="menu">
+           <ul class="menu1 ">
+                <li><a class=" font  d-flex flex-wrap-wrap col-12 col-sm-5 col-md-4  col-lg-3 col-xl-4 col-xxl-1" href="#sobre-mi">Sobre mí</a></li>
+                <li><a  class="font d-flex flex-wrap-wrap col-12 col-sm-5 col-md-4  col-lg-3 col-xl-4 col-xxl-1" href="#proyectos">Proyectos</a></li>
+                <li><a  class="font d-flex flex-wrap-wrap col-12 col-sm-5 col-md-4  col-lg-3 col-xl-4 col-xxl-1" >Contacto</a></li>
+                <li><a class="font d-flex flex-wrap-wrap col-12 col-sm-5 col-md-4  col-lg-3 col-xl-4 col-xxl-1" href="#Habilidades">habilidades</a></li>
+           </ul> 
+        </nav>
+        <br>
+    </header>
+    <br>
+    <main>
+        
+        <section id="sobre-mi" class="border">
+        
+            <h2>Sobre mí</h2>
+            <p>Soy un profesional apasionado por el desarrollo de software, con experiencia en el análisis, diseño, 
+                implementación y pruebas de aplicaciones. 
+                Mi enfoque está en crear soluciones eficientes y 
+                escalables que resuelvan problemas del mundo real. Me especializo en el uso de tecnologías modernas, 
+                metodologías ágiles y buenas prácticas de programación para entregar software de alta calidad.</p>
+        </section>
+        <br>
+
+        <section id="proyectos" class="border">
+            <h2>Proyectos</h2>
+            <ul>
+                <li><strong>Proyecto 1:</strong>  Desarrollo de una aplicación web para la gestión de inventarios en pequeñas empresas. La solución incluye módulos de control de stock, registro de ventas, y reportes de productos más vendidos.</li>
+                <li><strong>Proyecto 2:</strong>  Python (Django), Bootstrap, MySQL.</li>
+                <li><strong>Proyecto 3:</strong>  HTML.</li>
+            </ul>
+        </section>
+        <br>
+        
+        <section id="Contacto" class="border">
+            <h1>Contacto</h1>
+            <p>Puedes contactarme a través de:</p>
+            <ul>
+                <li><a href="mailto:tunombre@email.com">Correo electrónico</a></li>
+                <li><a href="https://twitter.com/tunombre">Twitter</a></li>
+                <li><a href="https://github.com/tunombre">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/tunombre/">LinkedIn</a></li>
+            </ul>
+            <p>O puedes llenar el formulario de contacto:</p>
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <label for="subject">Asunto:</label>
+                <select id="subject" name="subject">
+                    <option value="consulta">Consulta</option>
+                    <option value="proyecto">Proyecto</option>
+                    <option value="colaboración">Colaboración</option>
+                    <option value="otro">Otro</option>
+                </select><br><br>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Deseo recibir noticias y actualizaciones</label><br><br>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+
+        <section id="Habilidades" class="border">
+            <h2>Habilidades de Programación</h2>
+            <div class="habilidad">
+                <label>HTML & CSS</label>
+                <div class="barra">
+                    <div class="progreso html-css"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <label>JavaScript</label>
+                <div class="barra">
+                    <div class="progreso javascript"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <label>Python</label>
+                <div class="barra">
+                    <div class="progreso python"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <label>React.js</label>
+                <div class="barra">
+                    <div class="progreso react"></div>
+                </div>
+            </div>
+            <div class="habilidad">
+                <label>MySQL</label>
+                <div class="barra">
+                    <div class="progreso mysql"></div>
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+    </main>
+
+    <footer class="border">
+        <p>© 2024 <b>KENNER DAVID GUERRERO MUÑOZ</b> los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,110 @@
+body{
+    background-color: aqua;
+}
+
+.cuadro, .main-content, .footer {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.border{
+    border: 1px solid red;
+    background-color: green;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+
+.main-content {
+    padding: 20px;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 10px;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 300px){
+    body{
+        background-color: red;
+    }
+
+    .logo, .empresa, .menu, .registro, .buscar, .main-content, .footer {
+        width: 100%;
+        
+    }
+    .buscar{display: none;}
+
+    h1{
+        color: green;
+
+    }
+    
+
+    
+}
+
+@media screen and (min-width: 301px) and (max-width: 600px){
+    body{
+        background-color: rgb(10, 46, 209);
+    }
+
+    .buscar{display: none;}
+
+    .logo{width: 50%;}
+    .empresa{width: 100%;}
+    .menu, .registro{width: 50%;}
+    .buscar{width: 50%;}
+
+    h1{
+        color: brown;
+        font-size: 4em;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 900px){
+    body{
+        background-color: rgb(red);
+    }
+
+    .logo{width: 30%;}
+    .empresa{width: 40%;}
+    .menu{width: 30%;}
+    .registro, .buscar{width: 50%;}
+}
+
+@media screen and (min-width: 901px) and (max-width: 1200px){
+    body{
+        background-color: violet;
+    }
+
+    .logo, .empresa, .menu{width: 30%;}
+    .registro{width: 10%;}
+    .buscar{width: 100%;}
+}
+
+@media  screen and (min-width: 1201px){
+    body{
+        background-color: green;
+    }
+
+    .logo{width: 10%;}
+    .empresa{width: 20%;}
+    .menu{width: 40%;}
+    .registro{width: 20%;}
+    .buscar{width: 10%;}
+}
+
